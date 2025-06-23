@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    box-sizing: border-box;
+    height: 100%;
+    width: 18%;
+    background-color: #93d366;
+    color: white;
+    text-align: center;
+    font-family: "ms mincho";
+    position: fixed; top: 0; left: 0;
+    padding: 20px;
+}
+
+.item ul{
+    list-style: none;
+    padding: 0;
+}
+
+.item a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.maindiv{
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-left: 18%;
+    padding: 20px;
+}
+
+.maindiv h2{
+    text-align: center;
+}
+
+.subdiv{
+    width: 90%;
+    background-color: #f8d7e9;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 6px;
+    margin: 20px auto;
+    padding: 3px;
+}
+
+.fooddiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fooddiv img{
+    margin-top: 20px;
+}
+
+.fooddiv img, .fooddiv iframe{
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}

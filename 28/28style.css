@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    box-sizing: border-box;
+    height: 100%;
+    width: 18%;
+    background-color: #93d366;
+    color: white;
+    text-align: center;
+    font-family: "ms mincho";
+    position: fixed; top: 0; left: 0;
+    padding: 20px;
+}
+
+.item ul{
+    list-style: none;
+    padding: 0;
+}
+
+.item a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.maindiv{
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-left: 18%;
+    padding: 20px;
+}
+
+.introduce{
+    width: 90%;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.introduce .text{
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 200px;
+}
+
+.introduce .image{
+    flex: 0 0 200px;
+    margin-right: 20%;
+}
+
+
+.introduce .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image p{
+    margin-top: 0;
+}
