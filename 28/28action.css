@@ -17,13 +17,12 @@ body{
 
 .item ul{
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 .item a{
     color: antiquewhite;
     text-decoration: none;
-    padding: 20px;
 }
 
 .maindiv{
@@ -40,10 +39,14 @@ body{
 .conduct{
     background-color: #f5e3d5;
     border-radius: 4px;
+    box-shadow: 2px 0 6px rgb(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 15px;
+    align-items: center;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgb(0, 0, 1, 1.3);
-    text-align: center;
 }
 
 .actionimage{
@@ -52,8 +55,11 @@ body{
 }
 
 .actionimage img{
-    width: 50%;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
     border-radius: 5px;
+    display: block;
 }
 
 .maindiv p{

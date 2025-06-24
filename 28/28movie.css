@@ -17,13 +17,12 @@ body{
 
 .item ul{
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 .item a{
     color: antiquewhite;
     text-decoration: none;
-    padding: 20px;
 }
 
 .maindiv{
